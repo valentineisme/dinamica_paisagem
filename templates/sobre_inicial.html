@@ -1,0 +1,45 @@
+{% include 'head.html' %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+    .videobox{
+          position: relative;
+    }
+    .geral_inicio {
+            position: absolute;
+            width: 46%;
+            min-height: 40px;
+            z-index: 300000;
+            bottom: 22%;
+            left: 10px;
+            text-align: center;
+        }
+    .video_overlays{
+        padding-top: 35% !important;
+        left: 160px !important;
+    }
+    .divider{
+        color: white !important;
+    }
+</style>
+
+<body class="videobox">
+<div class="ui three column doubling stackable grid container geral_inicio">
+    <div class='ui column video_overlays'>
+        <img src="../static/magna_logo_vazio.png" id="logo" class="logo_centro_smot" width="100%"/>
+    </div>
+    <div class='ui column centro'></div>
+    <div class='ui column video_overlays'>
+        <img src="../static/smot_logo_vazio.png" id="logo" class="logo_centro_magna" width="100%"/>
+    </div>
+</div>
+    <div>
+    <video width="100%" autoplay loop>
+        <source src="../static/video.webm" type="video/webm">
+    </video>
+    </div>
+<div class="ui vertical divider ">
+    Monitoramento da Dinâmica da Paisagem
+</div>
+</body>
+
+</html>

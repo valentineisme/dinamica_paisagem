@@ -1,0 +1,187 @@
+footer {
+    padding-top: 1% !important;
+    min-height: 7% !important;
+    width: 100%;
+    background-color: #003831 !important;
+    margin: 0 !important;
+}
+
+.botao_main{
+    background-color: #003831 !important;
+}
+
+.meio_inicio {
+    background-image: url("../images/planoDeFundo.jpg") !important;
+    background-repeat: no-repeat !important;
+	background-size: cover !important;
+	width: 100% !important;
+    height: 100vh !important;
+}
+
+.meio_logado {
+    background-repeat: no-repeat !important;
+	background-size: cover !important;
+	width: 100% !important;
+    height: 100vh !important;
+}
+
+.bloco_inicio {
+    height: 100vh !important;
+}
+
+.textoMonitoramento{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 25%;
+    margin: 1px auto;
+    display: block;
+    text-align: center;
+    font-size: 2.5em !important;
+    font-family: 'Marvel', sans-serif !important;
+}
+
+.textoMonitoramento .header{
+    color: #005b6d !important;
+}
+
+#topo
+{
+    background-color: #003831;
+    min-height: 10% !important;
+}
+
+.modalpadrao{
+    margin: 10px;
+}
+
+#pagingControls ul{display:inline;padding-left:0.5em}
+#pagingControls li{display:inline;padding:0 0.5em}
+
+.geral_inicio{
+    height: 100% !important;
+}
+
+/*.body_inicial{*/
+/*    background-color: #8a8a8a !important;*/
+/*}*/
+
+/*.logo_centro_magna{*/
+/*    padding-top: 65% !important;*/
+/*}*/
+
+/*#logo{*/
+/*    padding-top: 65% !important;*/
+/*    position: absolute;*/
+/*    z-index: 300000;*/
+/*    text-align: center;*/
+/*}*/
+
+.esquerda{
+    background-color: transparent !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.centro{
+    background-color: transparent !important;
+}
+
+.direita{
+    background-color: transparent !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.botao_inferior{
+
+    margin-top: 50px !important;
+}
+
+.adm_img{
+    margin-left: 10px !important;
+}
+
+.negacao_msg{
+    text-align: center !important;
+}
+
+.campo_pesquisa{
+    width: 145px !important;
+    border-radius: 5px;
+}
+
+.campo_cadastro{
+    /*margin:10px !important;*/
+    width: 300px !important;
+    height: 30px !important;
+    border-radius: 5px;
+}
+
+.imagem_article{
+    height: 375px !important;
+}
+.botaoProximo{
+    margin-top: 10px !important;
+}
+.tabelas{
+
+    text-align: center !important;
+}
+
+.card{
+    display: flex;
+    justify-content: center !important;
+}
+
+.cadCaso{
+    float: right !important;
+}
+/*------------------------------*/
+.issem-dropdown {
+    text-align: center !important;
+    padding: 20px 0 10px 0 !important;
+}
+
+.issem-cad {
+    text-align: center;
+}
+
+.issem-input-small div {
+    min-width: 8em !important;
+}
+
+.issem-input-checkbox{
+    margin-top: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important;
+    padding-left: 15px !important;
+    box-shadow: none !important;
+}
+
+.errorlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.issem-input-radio {
+    box-shadow: none !important;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.issem-input-radio ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.issem-input-radio ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.ui.large.menu {
+    margin-top: 0;
+}
