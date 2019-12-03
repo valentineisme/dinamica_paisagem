@@ -2,41 +2,57 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style>
     .videobox{
-          position: relative;
+
+            background-image: url("../static/planoDeFundo.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
     }
-    .geral_inicio {
-            position: absolute;
-            width: 46%;
-            min-height: 40px;
-            z-index: 300000;
-            bottom: 22%;
-            left: 10px;
-            text-align: center;
-        }
-    .video_overlays{
-        padding-top: 35% !important;
-        left: 160px !important;
+    .esquerda{
+        max-width: 50% !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 20% !important;
     }
+
+    .direita{
+        max-width: 50% !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 20% !important;
+    }
+
+    .text_magna{
+        margin-left: 10% !important;
+        width: 100% !important;
+
+    }
+    .text_smot{
+        margin-left: 10% !important;
+        width: 100% !important;
+
+    }
+
     .divider{
-        color: white !important;
+        color: black !important;
     }
 </style>
 
 <body class="videobox">
 <div class="ui three column doubling stackable grid container geral_inicio">
-    <div class='ui column video_overlays'>
-        <img src="../static/magna_logo_vazio.png" id="logo" class="logo_centro_smot" width="100%"/>
+    <div class='ui column esquerda'>
+        <a href='https://aqua.fabricadesoftware.ifc.edu.br'><img src="../static/magna_logo_vazio.png" id="logo" class="logo_centro_smot" width="100%"/></a>
+        <div class="text_magna"><img src="../static/magna.png" width="100%"></div>
     </div>
+
     <div class='ui column centro'></div>
-    <div class='ui column video_overlays'>
-        <img src="../static/smot_logo_vazio.png" id="logo" class="logo_centro_magna" width="100%"/>
+    <div class='ui column direita'>
+        <a href='https://smot.fabricadesoftware.ifc.edu.br'><img src="../static/smot_logo_vazio.png" id="logo" class="logo_centro_magna" width="100%"/></a>
+        <div class="text_smot"><img src="../static/smot.png" width="100%"></div>
     </div>
 </div>
-    <div>
-    <video width="100%" autoplay loop>
-        <source src="../static/video.webm" type="video/webm">
-    </video>
-    </div>
 <div class="ui vertical divider ">
     Monitoramento da Dinâmica da Paisagem
 </div>
